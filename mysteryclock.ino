@@ -226,7 +226,7 @@ void setTime() {
   Wire.endTransmission();
  }
 
-byte readByte() {//KEYPAD FN
+byte readByte() {//KEYPAD FN, SPECIFIC FOR THIS INSTANCE
   myDisplay.setTextAlignment(PA_CENTER);
   total = 0;
   var = 0;
