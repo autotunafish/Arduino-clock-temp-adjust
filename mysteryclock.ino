@@ -3,6 +3,9 @@
 //BY REMOVING GRAPHIC FUNCTIONALITY AS INDICATED IN FILE
 //ARDUINO R3, MAX7219 LED MATRIX, DS1307 RTC, DS18B20 TEMP SENSOR, 4x4 MATRIX ARRAY KEYPAD
 //REQUIRES USB POWER FOR AMP REQUIREMENTS
+//Currently makes no use of the DS18B20 and may be ommited, was intended to call a temp
+//to correlate to an adjustment of the 'time adjustment' function with relation to temp but
+//the rtc runs fast always and so the temp curve was never accurately derived.
 //PINOUT
 //
 //PD1- KEYPAD   PIN 8 (CLOSEST TO 'D')
